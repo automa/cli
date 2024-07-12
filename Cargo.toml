@@ -1,11 +1,11 @@
 [package]
-name    = "cli-clap"
+name    = "automa-cli"
 version = "0.0.1"
 
-authors     = ["Pavan Kumar Sunkara <pavan.sss1991@gmail.com>"]
-description = "A simple CLI application using clap"
-homepage    = "https://github.com/termapps/cli-clap"
-repository  = "https://github.com/termapps/cli-clap"
+authors     = ["Automa <engineering@automa.app>"]
+description = "CLI for Automa"
+homepage    = "https://github.com/automa/cli"
+repository  = "https://github.com/automa/cli"
 
 edition      = "2021"
 rust-version = "1.75.0"
@@ -27,7 +27,7 @@ tracing-log         = { version = "0.1.3", default-features = false, features = 
 tracing-subscriber  = "0.3.16"
 
 [[bin]]
-name = "cli-clap"
+name = "automa"
 path = "src/main.rs"
 
 [profile.release]

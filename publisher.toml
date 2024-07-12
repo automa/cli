@@ -1,12 +1,13 @@
-repository = "termapps/cli-clap"
+name       = "automa"
+repository = "automa/cli"
 
 exclude = ["aur"]
 
 [aur_bin]
-name = "cli-clap"
+name = "automa"
 
 [homebrew]
-repository = "termapps/homebrew-tap"
+repository = "automa/cli"
 
 [scoop]
-repository = "termapps/scoop-bucket"
+repository = "automa/cli"

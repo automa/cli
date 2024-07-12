@@ -10,11 +10,11 @@ use tracing_subscriber::prelude::*;
 mod error;
 mod styles;
 
-mod hello;
+mod dev;
 
-/// A simple CLI application using clap
+/// CLI for Automa
 #[derive(Debug, Parser)]
-#[clap(name = "cli-clap", version)]
+#[clap(name = "automa", version)]
 #[command(styles = styles::styles())]
 struct App {
     #[command(subcommand)]
@@ -29,7 +29,7 @@ struct App {
 
 #[derive(Debug, Parser)]
 enum Subcommands {
-    Hello(hello::Hello),
+    Dev(dev::Dev),
 }
 
 fn main() {
@@ -48,7 +48,7 @@ fn main() {
         .init();
 
     let result = match program.cmd {
-        Subcommands::Hello(x) => x.run(),
+        Subcommands::Dev(x) => x.run(),
     };
 
     error::finish(result);
