@@ -3,11 +3,11 @@ repository = "automa/cli"
 
 exclude = ["aur"]
 
-[aur_bin]
-name = "automa"
-
 [homebrew]
 repository = "automa/cli"
+
+[aur_bin]
+name = "automa"
 
 [scoop]
 repository = "automa/cli"

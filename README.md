@@ -13,33 +13,40 @@
 `automa` is available on Linux, macOS & Windows
 
 <!-- omit from toc -->
-#### With [Homebrew](https://brew.sh)
+#### With [Cargo](https://crates.io)
 
 ```
-$ brew tap automa/cli https://github.com/automa/cli
-$ brew install automa/cli/automa
+cargo install automa-cli
 ```
 
 <!-- omit from toc -->
-#### With [AUR](https://aur.archlinux.org)
+#### With [Homebrew](https://brew.sh)
 
 ```
-$ yay -S automa
+brew tap automa/cli https://github.com/automa/cli
+brew install automa/cli/automa
+```
+
+<!-- omit from toc -->
+#### With [AUR (binary)](https://aur.archlinux.org)
+
+```
+yay -S automa
 ```
 
 <!-- omit from toc -->
 #### With [Scoop](https://scoop.sh)
 
 ```
-$ scoop bucket add automa https://github.com/automa/cli
-$ scoop install automa
+scoop bucket add automa https://github.com/automa/cli
+scoop install automa
 ```
 
 <!-- omit from toc -->
-#### With [cargo](https://crates.io/)
+#### With [Nix](https://nixos.org)
 
 ```
-$ cargo install automa-cli
+nix profile install github:automa/cli
 ```
 
 <!-- omit from toc -->
