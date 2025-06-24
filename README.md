@@ -62,9 +62,7 @@ Please see [CHANGELOG.md](CHANGELOG.md).
 
 <!-- omit from toc -->
 ## Contributing
-Contributions and feedback are welcome! Feel free to open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
-
-Here is a list of [Contributors](http://github.com/automa/cli/contributors).
+Contributions and feedback are welcome! Feel free to open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details. Here is a list of [Contributors](http://github.com/automa/cli/contributors).
 
 <!-- omit from toc -->
 ## License
