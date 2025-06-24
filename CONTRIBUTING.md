@@ -3,6 +3,7 @@
 ## Prerequisites
 
 - Have [`rust` & `cargo`](https://www.rust-lang.org/) installed.
+- Have [`clippy`](https://github.com/rust-lang/rust-clippy) installed.
 
 ## Installing dependencies
 
