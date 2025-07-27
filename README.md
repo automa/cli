@@ -50,6 +50,13 @@ nix profile install github:automa/cli
 ```
 
 <!-- omit from toc -->
+#### With [NPM](https://npmjs.com)
+
+```
+npm install -g @automa/cli
+```
+
+<!-- omit from toc -->
 #### Direct
 
 Pre-built binary executables are available at [releases page](https://github.com/automa/cli/releases).
