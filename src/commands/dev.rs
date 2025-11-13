@@ -9,7 +9,7 @@ pub struct Dev {}
 
 impl Dev {
     #[instrument(name = "dev", skip_all)]
-    pub fn run(self) -> Result {
+    pub(crate) fn run(&self) -> Result {
         Ok(())
     }
 }
